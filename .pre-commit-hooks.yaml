@@ -1,0 +1,7 @@
+- id: gitlab-mr-msg
+  name: GitLab Merge Request Title
+  description: Checks that the GitLab merge commit title follows the specified format
+  language: python
+  entry: check-mr-title.py
+  pass_filenames: false
+  require_serial: true
